@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background: url(../images/login-background-new-compressed.jpg) no-repeat; 
+	display: cover;
+	 background-position: center;
+	display: cover;
+	background-attachment: fixed;
+	
+}
+
+.container-fluid{
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+.nav-card .card-body {
+    min-height: 1px;
+     padding: 0;
+}
+.nav-card{
+	background: rgba(255,255,255,.9);
+	box-shadow: 1px 5px 8px 1px #0c0c0c;
+}
+.card-header img{
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+	margin-top:;
+	margin-top: 17px;
+}
+.nav-card .card-header span{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+}
+.body ul{
+	list-style: none;
+}
+.nav-card .body ul li{
+padding-left: 60px;
+
+color: #fff;
+
+font-size: 20px;
+
+line-height: 85px;
+
+border: none;
+
+border-top: 1px #313150;
+
+border-bottom: 1px solid #9a9a9a;
+}
+.nav-card .drop{
+	border: none!important;
+    background: none!important;
+}
+.nav-card .dropdown-menu a{
+	border-bottom: 1px solid #9a9a9a;
+}
+/* head */
+header{
+	background: rgba(247,247,247,.2)!important;
+	padding: 15px 0px;
+	/* box-shadow: 1px 2px 6px 0px black; */
+}
+.col-3{
+	margin-right: 0;
+	padding-right: 0;
+}
+.col-9{
+	
+}
+.m-auto{
+
+}
+

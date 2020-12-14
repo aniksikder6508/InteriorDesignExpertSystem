@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../images/login-background-new-compressed.jpg) no-repeat;
+	display: cover;
+	background-position: center;
+	height: 100vh;
+}
+.box{
+	width: 550px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(255,255,255,.9);
+	box-shadow: 1px 5px 8px 1px #0c0c0c;
+	
+}
+.content{
+	text-align: center;
+	margin: 0 auto;
+}
+.box img{
+	height: 25px;
+	width: 25px;
+	/* margin-top: 9px; */
+	margin-right: 5px;
+}
+h2{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 15px;
+}
+span{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 40px;
+}
+p{
+	color: #6F6965;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #6F6965;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 0px 47px;
+}
+.box label{
+	color: #6F6965;
+}
+.box .input{
+	width: 95%;
+	border:none;
+	border:1px solid #6F6965;
+	margin-bottom: 20px;
+	padding: 10px 5px;
+	background: transparent;
+	margin-top: 8px;
+}
+.submit{
+	background: #6390CC;
+	border-radius: 30px;
+	border:none;
+	width: 97%;
+	padding: 10px 5px;
+}
+#up{
+	font-size: 15px;
+
+}

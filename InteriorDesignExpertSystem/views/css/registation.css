@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../images/login-background-new-compressed.jpg) no-repeat; */
+	display: cover;
+	 background-position: center; */
+	 display: contents; */
+	
+	display: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.box{
+	width: 550px;
+	padding: 40px;
+	position: absolute;
+	left: 50%;
+	top: 64px;
+	transform: translate(-50%);
+	background: rgba(255,255,255,.9);
+	border-color: black;
+	margin-bottom: 85px; 
+	
+	box-shadow: 1px 5px 8px 1px #0c0c0c;
+}
+.content{
+	text-align: center;
+	margin: 0 auto;
+}
+.box img{
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+}
+h2{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+	margin:30px 0px;
+}
+span{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 40px;
+}
+p{
+	color: #6F6965;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #6F6965;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 0px 47px;
+}
+.box label{
+	/* margin-bottom: 32px; */
+	color: #6F6965;
+	/* padding: 97px 0px; */
+}
+.box .input{
+	width: 100%;
+	border:none;
+	border:1px solid #6F6965;
+	margin-bottom: 20px;
+	padding: 10px 5px;
+	background: transparent;
+	margin-top: 8px;
+}
+.submit{
+	background: #6390CC;
+	border-radius: 30px;
+	border:none;
+	width: 102%;
+	padding: 10px 5px;
+}
+.box a{
+	list-style: none;
+	text-decoration: none;
+}

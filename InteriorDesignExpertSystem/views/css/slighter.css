@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/login-background-new-compressed.jpg) no-repeat; 
+	display: cover;
+	background-position: center; 
+	display: contents; 
+	
+	display: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.container-fluid{
+	width: 100%;
+}
+.back{
+	background: #193845;
+	position: sticky;
+ top: 0;
+ height: 100vh;
+}
+.content-right{
+	width: 75%;
+	float: left;
+	display: flex;
+	background: #193845;
+}
+
+ h2{
+	
+margin-left: 42px;
+margin: 0;
+padding: 0;
+}
+.head h2 img{
+	height: 50px;
+	width: 50px;
+}
+ .head{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background: #193845;
+	border-bottom: 1px #313150;
+}
+.menu{
+}
+.menu ul{
+
+list-style: none;
+}
+.menu ul li{
+
+	padding-left: 60px;
+
+	color: #fff;
+
+	font-size: 20px;
+
+	line-height: 85px;
+
+	border: none;
+
+	border-top: 1px #313150;
+
+	border-bottom: 1px solid #9a9a9a;
+	transition: all 1s;
+}
+.menu ul li a{
+	color: #fff;
+	padding-left: 22px;
+	text-decoration: none;
+	font-size: 25px;
+}
+.content-right{
+	width: 80%;
+	float: left;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: #6c757d;
+	margin: 0
+	padding:0;
+	text-align: center;
+	transition: all .4s;
+}
+.menu ul li:hover .sub-menu-1 .sub-menu-1 ul{
+	display: block;
+	
+}
+.menu ul li:hover .sub-menu-1 ul li{
+text-align: center;
+padding: 0;
+}
+.menu ul li:hover .sub-menu-1 ul li a{
+	
+padding: 0;
+	
+padding: 0 38px;
+	
+font-size: 14px;
+}
+.menu ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}

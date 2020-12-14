@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	background: #FAFCFD;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	opacity: .9;
+	
+}
+.head img{
+	height: 50px;
+
+}
+.banner{
+	background: url(../images/Snickerdoodle_Livingroom_7623-1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0px;
+}
+.navbar{
+	
+}
+.content-1{
+	background-color: rgba(255,255,255,.9);
+	padding: 50px 30px;
+	
+
+}
+.content-1 h1{
+	font-weight: bold;
+	letter-spacing: .5px;
+	font-size: 45px;
+	color: #24292E;
+}
+p{
+	font-weight: 400;
+	font-size: 14px;
+	color: #66686A;
+}
+span{
+	font-weight: 400;
+	font-size: 14px;
+	color: #66686A;
+}
+.btn-p{
+	background-color: #34457d;
+	color: white;
+	padding: 10px 30px;
+	opacity: 1;
+	border-radius: 0px;
+	border: none;
+
+}
+.btn-p:hover{
+	background-color: #4C63AD;
+	color: white;
+}
+.howItWOrk h1{
+	margin-bottom: 70px;
+}
+.workContant img{
+	height: 200px;
+	width: 95%;
+}
+.howItWOrk{
+	padding: 70px 0px;
+}
+.workContant h2{
+	
+font-size: 27px;
+	
+margin: 20px 0px;
+	
+font-weight: bold;
+}
+.howItWOrk a{
+	color: black;
+	font-weight: bold;
+}
+
+.content-2{
+	margin-top: 70px;
+}
